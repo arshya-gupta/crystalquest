@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> An Interactive Game Experience </title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="gameplay-styles.css">
+		<script src="gameplay_Script.js" defer></script>
+
+	</head>
+	<body>
+		<!-- Top Navigation Bar -->
+		<nav class="navbar">
+  			<ul class="nav-list">
+   				<li class="nav-item"><a href="index.html">Home</a></li>
+    			<li class="nav-item"><a href="gameplay.html">Gameplay</a></li>
+    			<li class="nav-item"><a href="about.html">About</a></li>
+  			</ul>
+		</nav>
+
+		<!-- Pathway to follow -->
+		<!-- <div class="path"></div> -->
+
+		<!-- <div id="stationary-object"></div> -->
+
+		<!-- Character Movement and Existence -->
+		<div class="character"></div>
+		<!-- <button id="left">Move</button> -->
+		<button id="move-left-button">Move Left</button>
+		<button id="move-right-button">Move Right</button>
+		<button id="move-up-button">Move Up</button>
+		<button id="move-down-button">Move Down</button>
+
+		<!-- dialogue box -->
+		<div id="dialogue-box"></div>
+		<button id="button">Click me!</button>
+
+		<!-- Platforms -->
+		<div class="platform">
+			<img id="plat_1" src="platform1.png">
+			<div id="plat_2"></div>
+			<div id="plat_3"></div>
+		</div>
+
+		<!-- Mini Game Example -->
+		<!-- <div id="minigame-popup">
+  			<h2>Mini Game</h2>
+  			<p>Click as many times as you can in 10 seconds!</p>
+  			<p id="score">Score: 0</p>
+  			<button id="start-game">Start Game</button>
+  			<div id="timer">10</div>
+		</div> -->
+
+		<!-- Map -->
+		<div class="map" onclick="location.href='index.html';"></div>
+
+		<!-- Inventory System -->
+		<div class="circle"></div>
+		<div class="inventory-container">
+			<div id="inventory">
+				<h2>Inventory</h2>
+				<ul id="items"></ul>
+			</div>
+	
+			<button id="add-apple">Add Apple</button>
+			<button id="add-banana">Add Banana</button>
+			<button id="remove-apple">Remove Apple</button>
+			<button id="remove-banana">Remove Banana</button>
+		</div>		
+
+
+
+
+
+	</body>
+</html>
